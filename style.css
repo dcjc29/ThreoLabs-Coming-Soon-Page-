@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+#particles-js{
+    background-image: url('backgroundnew2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 35px;
+}
+
+ 
+  /* Position text in the top-left corner */
+ .btext .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+ .btext .bottomleft {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 7%;
+  }
+  
+  /* Position text in the middle */
+  .btext .middle {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
