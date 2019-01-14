@@ -22,21 +22,23 @@
  .btext .topleft {
     position: absolute;
     top: 0;
-    left: 16px;
+    
   }
   
   /* Position text in the bottom-left corner */
  .btext .bottomleft {
     position: absolute;
-    bottom: 50px;
-    margin-left: 7%;
+    bottom: 0px;
+    margin-left: 60px;
+    width: 15rem;
+    
   }
   
   /* Position text in the middle */
   .btext .middle {
     position: absolute;
-    left: 50%;
-    top: 52%;
+    left: 45%;
+    top: 60%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -44,6 +46,6 @@
   /* Style the <hr> element */
   hr {
     margin: auto;
-    width: 40%;
+    width: 50%;
   }
 
