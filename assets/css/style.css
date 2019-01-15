@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-size: 24px;
-    line-height: 24px;
+   
 }
 
 h3 {
@@ -151,7 +151,6 @@ a:focus {
     font-weight: 300;
     margin-bottom: 24px;
     color: #fff;
-    padding-right: 165px;
 }
 
 .pxlr-comingsoon p{
@@ -182,7 +181,7 @@ a:focus {
     display: inline-block;
     text-align: center;
     border-right: 1px solid #5d5654;
-    padding: 10px 40px 0px 28px;
+    padding: 10px 0px 0px 28px;
 }
 
 
@@ -259,7 +258,7 @@ a:focus {
 
 #particles-js{
     background-image: url("../img/backgroundnew2.jpg");
-    height: 130vh;
+    height: 150vh;
     background-size: cover;
     background-position: center;
 }
