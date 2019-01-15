@@ -1,0 +1,265 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #969595;
+    font-weight: 400;
+}
+
+
+/* --------------------------------------
+TYPOGRAPHY
+------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #313131;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+/* --------------------------------------
+LINK STYLE
+------------------------------------------*/
+a {
+    color: #31aae2;
+    text-decoration : none;
+    -webkit-transition      : all 0.3s ease 0s;
+    -moz-transition      : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition      : all 0.3s ease 0s;
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration : none;
+    outline         : none
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.gray-bg {
+    background-color: #f9f9f9;
+}
+
+
+
+
+/*Global Classes*/
+.pt-70 {
+    padding-top: 20px;
+}
+.ptb-90 {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ptb-150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.ptb-160 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.ptb-170 {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+@media (min-width: 768px) {
+    /*custom-padding class*/
+
+    .pl-30 {
+        padding-left: 30px;
+    }
+    .pr-30 {
+        padding-right: 30px;
+    }
+}
+
+
+
+/*-------------------------------------------------------------
+ *pxlr-comingsoon start
+ *-------------------------------------------------------------*/
+.pxlr-comingsoon {
+
+    color: #fff;
+    position: absolute;
+  
+}
+
+.pxlr-comingsoon::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.pxlr-comingsoon .logo {
+   
+    display: inline-block;
+}
+.pxlr-comingsoon h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    color: #fff;
+    padding-right: 165px;
+}
+
+.pxlr-comingsoon p{
+    margin-bottom: 62px;
+    color: #fff;
+}
+
+.pxlr-comingsoon .countdown-wrapper h3{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #31aae2;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.pxlr-comingsoon .countdown-wrapper i{
+    margin-right: 5px;
+}
+
+
+/*pxlr-countdown-wrapper*/
+.pxlr-comingsoon .countdown-wrapper {
+    margin: 20px 0 50px;
+}
+
+.pxlr-comingsoon #countdown li {
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #5d5654;
+    padding: 10px 40px 0px 28px;
+}
+
+
+@media (max-width : 766px) {
+    .pxlr-comingsoon #countdown li {
+        margin-bottom: 12px;
+    }
+    .pxlr-comingsoon .social-links li a {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width : 479px) {
+    .pxlr-comingsoon #countdown li {
+        min-width: 108px;
+    }
+}
+
+.pxlr-comingsoon #countdown li span {
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.pxlr-comingsoon #countdown li p{
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0;
+    color: #fff;
+}
+.pxlr-comingsoon #countdown li span:hover {
+    cursor: pointer;
+}
+
+/*subscribe-wrapper*/
+
+/*subscribe-form*/
+.pxlr-comingsoon .subscribe-form {
+    margin-bottom: 45px;
+}
+.pxlr-comingsoon .subscribe-form .form-control {
+    height: 42px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #fff;
+}
+.pxlr-comingsoon .subscribe-form .form-control:focus {
+    box-shadow: none;
+}
+.pxlr-comingsoon .subscribe-form .btn-black {
+    margin-left: 10px;
+    height: 42px;
+    background-color: #fff;
+    color: #31aae2;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*social-links*/
+.pxlr-comingsoon .social-links {}
+.pxlr-comingsoon .social-links li{
+    margin-right: 10px;
+}
+.pxlr-comingsoon .social-links li:last-child{
+    margin-right: 0;
+}
+.pxlr-comingsoon .social-links li a{
+    display: block;
+    color: #969595;
+    font-size: 20px;
+}
+.pxlr-comingsoon .social-links li a:hover{
+    color: #fff;
+}
+/*pxlr-comingsoon end*/
+
+#particles-js{
+    background-image: url("../img/backgroundnew2.jpg");
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
